@@ -1,0 +1,66 @@
+.center-it{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.row{
+    margin: 10px;
+}
+.row-advice{
+    margin: 40px;   
+}
+.btn-search {
+    color: #a4a4a4;
+    background: none;
+    font-size: 24px;
+    padding: 0px;
+  }
+.form-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80%;
+    align-items: center;
+}
+.input-term {
+    border-bottom: solid 2.5px #0d6dfc;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 50%;
+    margin: 10px;
+}
+.search-result{
+    margin: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #0d6dfc!important;
+}
+.page-heading {
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 35px;
+ }
+ .quote {
+    font-size: 30px;
+    line-height: 1;
+    color: #3d3d3d;
+    text-align: center;
+  }
+  .font-apostroph {
+    font-size: 84px;
+    color: #3d3d3d;
+    font-family: cursive;
+  }
+  h3 {
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
